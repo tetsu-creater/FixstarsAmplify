@@ -19,6 +19,7 @@ f = f**2
 client = FixstarsClient()
 client.token = os.environ["FIXSTARS_AMPLIFY_TOKEN"]
 client.parameters.timeout = 1000
+#client.parameters.outputs.duplicate = True  # 同じエネルギー値の解を列挙するオプション（解が複数個あるため）
 
 solver = Solver(client)
 result = solver.solve(f)
