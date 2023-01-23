@@ -1,7 +1,7 @@
 #  グラフ彩色問題
 
 import numpy as np
-from amplify import gen_symbols, BinaryPoly, sum_poly, BinaryConstraint, Solver, decode_solution, BinaryQuadraticModel
+from amplify import gen_symbols, BinaryPoly, sum_poly, BinaryConstraint, Solver, decode_solution
 from amplify.constraint import equal_to
 import japanmap as jm
 from japanmap import adjacent, pref_names, picture
