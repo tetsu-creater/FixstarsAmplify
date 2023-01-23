@@ -1,7 +1,7 @@
 # 会議割り当て問題
 import itertools
-from amplify import gen_symbols, BinaryPoly, BinaryIntConstraint, Solver, sum_poly
-from amplify.constraint import equal_to, penalty
+from amplify import gen_symbols, BinaryPoly, BinaryIntConstraint, Solver
+from amplify.constraint import equal_to
 from amplify.client import FixstarsClient
 import os
 
